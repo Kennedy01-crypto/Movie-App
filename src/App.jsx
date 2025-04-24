@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Search from "./components/Search";
 import Detail from "./components/Detail";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
           false
         )}
       </main>
+      <Footer />
     </div>
   );
 }
